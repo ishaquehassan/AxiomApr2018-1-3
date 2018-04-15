@@ -1,0 +1,12 @@
+1st Assignment Steps
+1. Generate a random number
+2. Take input from user
+3. Give 3 chances, if its matched ? Exit it
+4. If its not matched in 3 times, Print "You loose"
+
+2nd Assignment
+1. Generate a random number
+2. Take input from user
+3. Give 3 chances, if its matched ? Exit it
+4. If its not matched in 3 times, Print "You loose"
+5. Show option to play again
