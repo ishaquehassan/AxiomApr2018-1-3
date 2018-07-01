@@ -10,6 +10,11 @@ fun main(args: Array<String>) {
     var t3 = Teacher1("java", "j@c.com", 19)
     println(t3.toString())
 
+
+//    var mylist = ArrayList<Teacher1>()
+//    mylist.add(t)
+
+
 }
 
 class Teacher1(name: String) {
