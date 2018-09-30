@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@mipmap/ic_launcher" />
+    <!--margin effect-->
+    <TextView
+        android:id="@+id/name_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toEndOf="@id/imgView"
+        android:background="#aaa"
+        android:text="text1"
+        android:textSize="42sp" />
+    <!--padding effect -->
+    <TextView
+
+        android:id="@+id/desc_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name_tv"
+        android:layout_toEndOf="@id/imgView"
+        android:background="#aaa"
+        android:paddingLeft="10dp"
+        android:text="text2"
+        android:textSize="42sp" />
+
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:weightSum="3">-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="120dp"-->
+    <!--android:layout_weight="1" />-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="2"-->
+    <!--android:orientation="vertical">-->
+
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="text1"-->
+    <!--android:textSize="42sp" />-->
+
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="text1"-->
+    <!--android:textSize="42sp" />-->
+    <!--</LinearLayout>-->
+    <!--</LinearLayout>-->
+
+</RelativeLayout>
