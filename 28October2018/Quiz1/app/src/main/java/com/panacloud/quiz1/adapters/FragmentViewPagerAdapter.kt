@@ -18,6 +18,10 @@ class FragmentViewPagerAdapter(var ctx: Context, var fm: FragmentManager) :
         }
     }
 
+    override fun getPageTitle(position: Int): CharSequence? {
+        return "TAB ${position+1}"
+    }
+
     override fun getCount(): Int {
 
         return 2

@@ -7,10 +7,10 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import com.panacloud.quiz1.R
-import com.panacloud.quiz1.models.user
+import com.panacloud.quiz1.models.User
 
 class ListAdapter(var ctx: Context,
-                  var myUserList: ArrayList<user>)
+                  var myUserList: ArrayList<User>)
     : RecyclerView.Adapter<ListAdapter.CustomViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CustomViewHolder {
 

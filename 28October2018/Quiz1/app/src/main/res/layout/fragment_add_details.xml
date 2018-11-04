@@ -5,10 +5,45 @@
     android:layout_height="match_parent"
     tools:context=".fragments.AddDetailsFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/edit_firstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="First Name" />
+
+        <EditText
+            android:id="@+id/edit_lastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Last Name" />
+
+        <EditText
+            android:id="@+id/edit_reg_num"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Registeration Number"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/edit_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Group Of Study" />
+
+        <Button
+            android:id="@+id/add_user_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add User"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
 
 </FrameLayout>
