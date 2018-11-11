@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <Button
+            android:id="@+id/map_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Open Map"
+            style="@style/button_style"/>
+
+    <Button
+            android:id="@+id/url_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Open Url"
+            style="@style/button_style"/>
+
+
+    <Button
+            android:id="@+id/dial_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dial Number"
+            style="@style/button_style"/>
+
+    <Button
+            android:id="@+id/camera_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Open Camera"
+            style="@style/button_style"/>
+
+    <ImageView
+            android:id="@+id/img_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="50dp"/>
+
+
+</LinearLayout>
