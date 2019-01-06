@@ -1,0 +1,9 @@
+
+Create Android Application 
+
+-User Sign in 
+-User Sign up
+-Other Users List when user is logged in
+-you can select any user and send message 
+-Recent chats all user chats
+-All users Messages when click on any User Recent Chats
