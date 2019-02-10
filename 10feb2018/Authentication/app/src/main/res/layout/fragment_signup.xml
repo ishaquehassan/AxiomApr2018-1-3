@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".registration.SignupFragment">
+
+    <EditText
+            android:layout_marginTop="100dp"
+            android:id="@+id/email"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:textColor="#000"/>
+
+    <EditText
+            android:id="@+id/pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="Password"
+            android:textColor="#000"/>
+
+    <Button
+            android:id="@+id/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Signup"
+            android:layout_gravity="end"
+            android:layout_marginRight="10dp"/>
+
+
+    <TextView
+            android:id="@+id/signin"
+            android:layout_gravity="center"
+            android:background="#EC1212"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Signin"/>
+
+</LinearLayout>
